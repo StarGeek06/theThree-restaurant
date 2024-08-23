@@ -1,0 +1,29 @@
+
+
+input 
+{
+   height: 30px;
+   width: 300px;
+   font-family: "Poppins";
+   outline: none;
+   margin: 10px;
+}
+
+.inputs
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+
+form button
+{
+  width: 300px;
+  padding: 0.3rem;
+  background-color: rgb(36, 197, 63);
+  font-family: "Poppins";
+  padding: .25rem;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}

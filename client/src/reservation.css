@@ -1,0 +1,129 @@
+
+::-webkit-scrollbar
+{
+    background-color: rgb(19, 173, 19);
+    width: .5rem;
+}
+body
+{
+    font-family: "Poppins";
+    background-image: url('./images/bg.png');
+    background-size: cover;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.types
+{
+    display: flex;
+}
+
+.cont
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container 
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1 
+{
+    text-align: center;
+}
+.container form 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container form button
+{
+    width: 100%;
+}
+.types 
+{
+    display: flex;
+    padding: .5rem;
+    margin: 0;
+ 
+}
+
+.types input
+{
+    width: 50px;
+}
+
+input 
+{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(0,0,0,0.6);
+}
+
+.cont h2
+{
+    background-color: white;
+    padding: .5rem;
+    border-radius: 2px;
+}
+
+
+.facture
+{
+    background-color: white;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.facture button
+{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(35, 177, 77);
+    outline: none;
+    border: none;
+    border-radius: 5px ;
+    font-family: 'Poppins';
+    margin: 10px;
+    width: 100%;
+}
+
+.pay
+{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.pay button
+{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(35, 177, 77);
+    outline: none;
+    border: none;
+    border-radius: 5px ;
+    font-family: 'Poppins';
+    margin: 10px;
+    width: 100%;
+}
